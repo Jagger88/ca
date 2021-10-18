@@ -11,7 +11,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "@tinymce/tinymce-react": "^3.8.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "firebase": "^8.2.0",
     "node-sass": "^4.14.1",
     "rc-table": "^7.12.3",
@@ -58,10 +58,10 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.1.11",
-    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-essentials": "^6.3.10",
     "@storybook/addon-links": "^6.1.11",
     "@storybook/node-logger": "^6.1.11",
     "@storybook/preset-create-react-app": "^3.1.5",
-    "@storybook/react": "^6.1.11"
+    "@storybook/react": "^6.3.10"
   }
 }
