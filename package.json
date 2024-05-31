@@ -23,8 +23,8 @@
     "stripe": "^6.28.0"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.14.0",
     "concurrently": "^5.0.3",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "prisma": "^5.7.0"
   }
 }

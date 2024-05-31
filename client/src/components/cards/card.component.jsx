@@ -1,6 +1,8 @@
 import React from 'react';
 import './card.styles.scss';
 
+// Card with title and HTML in body
+
 const Card = ({name, text}) => (
     <div className='card'>
         <div className='title'>{name} </div>

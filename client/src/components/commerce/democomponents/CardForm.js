@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 
-import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
+// import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
 
 const useOptions = () => {
   const options = useMemo(

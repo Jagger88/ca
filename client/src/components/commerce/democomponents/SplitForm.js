@@ -1,11 +1,11 @@
 import React, { useMemo } from "react";
-import {
-  useStripe,
-  useElements,
-  CardNumberElement,
-  CardCvcElement,
-  CardExpiryElement
-} from "@stripe/react-stripe-js";
+// import {
+//   useStripe,
+//   useElements,
+//   CardNumberElement,
+//   CardCvcElement,
+//   CardExpiryElement
+// } from "@stripe/react-stripe-js";
 
 import useResponsiveFontSize from "../../useResponsiveFontSize";
 

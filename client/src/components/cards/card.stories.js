@@ -6,13 +6,18 @@ export default {
   title: 'Components/Cards/Card',
   component: Card,
   argTypes: {
-    name:'Title',
-    text:'jeep'
   },
   };
 
 const Template = (args) => <Card {...args} />;
 
 export const Main = Template.bind({});
+Main.args = {
+  name:'Title',
+    text:'text'
+};
 
-Main.args = {};
+export const NoText = Template.bind({});
+NoText.args = {
+
+};
