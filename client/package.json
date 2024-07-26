@@ -10,18 +10,18 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
-    "@tinymce/tinymce-react": "^3.8.4",
-    "axios": "^0.21.4",
+    "@tinymce/tinymce-react": "^5.1.1",
+    "axios": "^1.7.2",
     "firebase": "^8.2.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "rc-table": "^7.12.3",
     "rc-tree": "^4.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-grid-layout": "^1.2.0",
-    "react-redux": "^7.2.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^3.0.1",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
@@ -35,8 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "storybook dev -p 6006 public",
+    "build-storybook": "storybook build public"
   },
   "eslintConfig": {
     "extends": [
@@ -57,11 +57,19 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.1.11",
-    "@storybook/addon-essentials": "^6.3.10",
-    "@storybook/addon-links": "^6.1.11",
-    "@storybook/node-logger": "^6.1.11",
-    "@storybook/preset-create-react-app": "^3.1.5",
-    "@storybook/react": "^6.3.10"
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-actions": "^8.1.11",
+    "@storybook/addon-essentials": "^8.1.11",
+    "@storybook/addon-links": "^8.1.11",
+    "@storybook/addon-styling-webpack": "^1.0.0",
+    "@storybook/node-logger": "^8.1.11",
+    "@storybook/preset-create-react-app": "^8.1.11",
+    "@storybook/react": "^8.1.11",
+    "@storybook/react-webpack5": "^8.1.11",
+    "@types/react-redux": "^7.1.33",
+    "@types/react-router-dom": "^5.3.3",
+    "react-refresh": "^0.14.2",
+    "storybook": "^8.1.11",
+    "webpack-cli": "^5.1.4"
   }
 }
