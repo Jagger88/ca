@@ -6,6 +6,9 @@ import '../../../node_modules/react-resizable/css/styles.css';
 // components
 import GridLayout from 'react-grid-layout';
 
+//https://react-grid-layout.github.io/react-grid-layout/examples/1-basic.html
+//https://react-grid-layout.github.io/react-grid-layout/examples/0-showcase.html
+
 const RGrid = ({layout, children, isResizable, isDraggable}) => {
 function Dothis (e) {
   console.log('layout changed');
